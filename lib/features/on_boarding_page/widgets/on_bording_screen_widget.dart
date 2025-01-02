@@ -4,7 +4,7 @@ import 'package:islamic/features/on_boarding_page/widgets/boarding_item.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 import '../../../core/theme/aap_colors.dart';
-import '../../layout/pages/layout_page.dart';
+import '../../layout/layout_page.dart';
 
 class OnBoardingScreenWidget extends StatefulWidget {
   @override

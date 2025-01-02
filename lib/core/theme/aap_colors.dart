@@ -5,4 +5,5 @@ class AppColors {
   static Color secondaryColor = Color(0xff202020);
   static Color white = Color(0xffFFFFFF);
   static Color gray = Color(0xff707070);
+  static Color titleTextColor = Color(0xffFEFFE8);
 }

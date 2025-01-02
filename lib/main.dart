@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:islamic/features/splash/pages/splash_page.dart';
 
-import 'features/layout/pages/layout_page.dart';
+import 'features/layout/layout_page.dart';
+import 'features/layout/quran/pages/quran_details_view.dart';
 import 'features/on_boarding_page/pages/on_boarding_pages.dart';
-import 'features/on_boarding_page/widgets/boarding_item.dart';
 
 void main() {
   runApp(MyApp());
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         SplashPage.routeName: (context) => const SplashPage(),
         OnBoardingScreen.routeName: (context) => const OnBoardingScreen(),
         LayoutPage.routeName: (context) => const LayoutPage(),
-        //BoardingModel.routeName: (context) => const BoardingModel(),
+        QuranDetailsView.routeName: (context) => QuranDetailsView(),
       },
     );
   }

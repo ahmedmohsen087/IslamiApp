@@ -2,7 +2,7 @@ import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 
 import '../../../core/constants/app_assets.dart';
-import '../../layout/pages/layout_page.dart';
+import '../../layout/layout_page.dart';
 import '../../on_boarding_page/pages/on_boarding_pages.dart';
 import '../../on_boarding_page/widgets/boarding_item.dart';
 

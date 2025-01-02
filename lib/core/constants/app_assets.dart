@@ -24,6 +24,16 @@ class AppAssets {
   static String sabahIcon = 'assets/icons/sabha.png';
   static String timeIcon = 'assets/icons/time.png';
 
-  static String quranBackground = 'assets/images/quranBackground.png';
+  static String quranBackground = 'assets/images/BackgroundQuran.png';
   static String hadithBackground = 'assets/images/hadithBackground.png';
+
+  static String quranIconSearch = 'assets/icons/iconSearch.png';
+  static String suraIcon = 'assets/icons/suraNumber.png';
+  static String quranLogo = 'assets/images/Logo.png';
+  static String quranRecentlyImage = 'assets/images/mostRecentlyImage.png';
+
+  static String sabhaIcon = 'assets/icons/Mask group.png';
+  static String sabhaBackground = 'assets/images/sabhaBackground.png';
+  static String sabhaLogo = 'assets/images/SebhaBody 1.png';
+  static String souraDetails = 'assets/images/Soura Details Screen.png';
 }
