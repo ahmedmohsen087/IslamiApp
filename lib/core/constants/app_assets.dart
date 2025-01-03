@@ -26,6 +26,7 @@ class AppAssets {
 
   static String quranBackground = 'assets/images/BackgroundQuran.png';
   static String hadithBackground = 'assets/images/hadithBackground.png';
+  static String hadithCard = 'assets/images/Hadith Card.png';
 
   static String quranIconSearch = 'assets/icons/iconSearch.png';
   static String suraIcon = 'assets/icons/suraNumber.png';

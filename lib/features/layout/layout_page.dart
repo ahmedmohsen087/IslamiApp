@@ -5,7 +5,7 @@ import 'package:islamic/features/layout/tasbeh/sabha_tab.dart';
 import 'package:islamic/features/layout/times/times_tab.dart';
 
 import '../../core/theme/aap_colors.dart';
-import 'hadith/hadith_tab.dart';
+import 'hadith/pages/hadith_tab.dart';
 import 'quran/pages/quran_tab.dart';
 import 'widgets/custom_navbar_item.dart';
 
