@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:islamic/core/constants/app_assets.dart';
+import 'package:islamic/features/layout/qiblah/qibla.dart';
 import 'package:islamic/features/layout/radio/radio_tab.dart';
 import 'package:islamic/features/layout/tasbeh/sabha_tab.dart';
 import 'package:islamic/features/layout/times/times_tab.dart';
@@ -26,6 +27,7 @@ class _LayoutPageState extends State<LayoutPage> {
     SabhaTab(),
     RadioTab(),
     TimesTab(),
+    CompassWithQiblah()
   ];
 
   @override
@@ -80,6 +82,13 @@ class _LayoutPageState extends State<LayoutPage> {
                     iconBath: AppAssets.timeIcon,
                   ),
                   label: 'Time'),
+              BottomNavigationBarItem(
+    icon: CustomNavbarItem(
+    selectedIndex: selectedIndex,
+        navBarItem: 5,
+        iconBath: AppAssets.timeIcon,
+    ),
+    label: 'Qiblah'),
             ]),
         body: tabs[selectedIndex],
       ),

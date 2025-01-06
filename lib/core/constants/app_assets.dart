@@ -37,4 +37,5 @@ class AppAssets {
   static String sabhaBackground = 'assets/images/sabhaBackground.png';
   static String sabhaLogo = 'assets/images/SebhaBody 1.png';
   static String souraDetails = 'assets/images/Soura Details Screen.png';
+  static String qiblahDetails = 'qiblah.png';
 }
