@@ -27,7 +27,7 @@ class _LayoutPageState extends State<LayoutPage> {
     SabhaTab(),
     RadioTab(),
     TimesTab(),
-    CompassWithQiblah()
+    CompassWithQiblah(),
   ];
 
   @override
