@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:islamic/core/constants/app_assets.dart';
+import 'package:islamic/core/services%20/local_storge_keys.dart';
+import 'package:islamic/core/services%20/local_storge_services.dart';
 import 'package:islamic/features/on_boarding_page/widgets/boarding_item.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
@@ -43,7 +45,11 @@ class _OnBoardingScreenWidgetState extends State<OnBoardingScreenWidget> {
   ];
 
   bool isLast = false;
-
+@override
+  void initState() {
+    super.initState();
+    LocalStorageService.setBool(LocalStorageKeys.isFirstTimeOpen, true);
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(

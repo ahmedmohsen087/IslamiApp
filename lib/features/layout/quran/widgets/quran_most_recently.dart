@@ -4,8 +4,10 @@ import 'package:islamic/core/constants/app_assets.dart';
 import 'package:islamic/core/theme/aap_colors.dart';
 import 'package:islamic/models/recent_data.dart';
 
+import '../../../../models/sura_data_model.dart';
+
 class QuranMostRecently extends StatelessWidget {
-  final RecentData recentData;
+  final SuraDataModel recentData;
 
   const QuranMostRecently({super.key, required this.recentData});
 
@@ -24,21 +26,21 @@ class QuranMostRecently extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Text(
-                  recentData.suraNameEn,
+                  recentData.nameEn,
                   style: GoogleFonts.badScript(
                       fontSize: 24,
                       color: AppColors.white,
                       fontWeight: FontWeight.w700),
                 ),
                 Text(
-                  recentData.suraNameAR,
+                  recentData.nameAr,
                   style: GoogleFonts.badScript(
                       fontSize: 24,
                       color: AppColors.white,
                       fontWeight: FontWeight.w700),
                 ),
                 Text(
-                  recentData.suraVerses,
+                  recentData.verses.toString(),
                   style: GoogleFonts.badScript(
                       fontSize: 14,
                       color: AppColors.white,

@@ -2,6 +2,8 @@ import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 
 import '../../../core/constants/app_assets.dart';
+import '../../../core/services /local_storge_keys.dart';
+import '../../../core/services /local_storge_services.dart';
 import '../../layout/layout_page.dart';
 import '../../on_boarding_page/pages/on_boarding_pages.dart';
 import '../../on_boarding_page/widgets/boarding_item.dart';
@@ -21,8 +23,10 @@ class _SplashPageState extends State<SplashPage> {
   void initState() {
     super.initState();
     Future.delayed(Duration(seconds: 5), () {
-      //Navigator.pushReplacementNamed(context, BoardingModel.routeName);
-      Navigator.pushReplacementNamed(context, OnBoardingScreen.routeName);
+      var isFirst = LocalStorageService.getBool(LocalStorageKeys.isFirstTimeOpen);
+      true;
+      Navigator.pushReplacementNamed(context,
+       isFirst ? OnBoardingScreen.routeName:LayoutPage.routeName);
     });
   }
 
