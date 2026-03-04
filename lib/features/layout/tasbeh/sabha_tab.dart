@@ -4,7 +4,7 @@ import 'package:islamic/core/constants/app_assets.dart';
 import 'package:islamic/core/theme/aap_colors.dart';
 
 class SabhaTab extends StatefulWidget {
-  SabhaTab({super.key});
+  const SabhaTab({super.key});
 
   @override
   State<SabhaTab> createState() => _SabhaTabState();
@@ -12,8 +12,14 @@ class SabhaTab extends StatefulWidget {
 
 class _SabhaTabState extends State<SabhaTab> {
   int counter = 0;
-
   double angle = 0;
+  String tsbeah =  'سبحان الله' ;
+
+      List<String> sabhaType = [
+    'سبحان الله',
+    'الحمد لله',
+    'الله اكبر'
+  ];
 
   @override
   Widget build(BuildContext context) {
@@ -24,9 +30,7 @@ class _SabhaTabState extends State<SabhaTab> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          SizedBox(height: 100, child: Image.asset(AppAssets.quranLogo)),
-          SizedBox(
-              height: 73, child: Image(image: AssetImage(AppAssets.sabhaIcon))),
+          Image.asset(AppAssets.quranLogo),
           Stack(
             alignment: Alignment.center,
             children: [
@@ -36,7 +40,7 @@ class _SabhaTabState extends State<SabhaTab> {
                     angle: angle,
                     child: Image(image: AssetImage(AppAssets.sabhaLogo))),
               ),
-              Text('سبحان الله  \n \n ',
+              Text('$tsbeah  \n \n ',
                   style: GoogleFonts.ruwudu(
                       fontSize: 37,
                       fontWeight: FontWeight.bold,
@@ -57,6 +61,10 @@ class _SabhaTabState extends State<SabhaTab> {
     counter++;
     if (counter == 33) {
       counter = 0;
+      for(int i = 0 ; i <= sabhaType.length ; i ++ ){
+        tsbeah = sabhaType[i];
+      }
+
     }
 
     angle += 1 / 33;
