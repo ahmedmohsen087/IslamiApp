@@ -27,15 +27,32 @@ class AppAssets {
   static String quranBackground = 'assets/images/BackgroundQuran.png';
   static String hadithBackground = 'assets/images/hadithBackground.png';
   static String hadithCard = 'assets/images/Hadith Card.png';
+  static String radioBackground = 'assets/images/radioBackground.jpg';
+  static String radioSound = 'assets/images/soundWave.jpg';
+  static String radioCard = 'assets/images/Maskgroup.jpg';
+  static String radioCard1 = 'assets/images/Mosque-02.png';
+  static String radioCardBackground = 'assets/images/radioCardBackground.png';
 
   static String quranIconSearch = 'assets/icons/iconSearch.png';
   static String suraIcon = 'assets/icons/suraNumber.png';
   static String quranLogo = 'assets/images/Logo.png';
   static String quranRecentlyImage = 'assets/images/mostRecentlyImage.png';
 
-  static String sabhaIcon = 'assets/icons/Mask group.png';
+  static String sabhaIcon = 'assets/icons/radioCardBackground.png';
   static String sabhaBackground = 'assets/images/sabhaBackground.png';
   static String sabhaLogo = 'assets/images/SebhaBody 1.png';
   static String souraDetails = 'assets/images/Soura Details Screen.png';
   static String qiblahDetails = 'qiblah.png';
+
+  static String azkarBackground = 'assets/images/azkarBackground.jpg';
+  static String azkarCard1 = 'assets/images/azkarcard1.png';
+  static String azkarCard2 = 'assets/images/azkarcard2.png';
+  static String azkarMoarning = 'assets/images/morningazkar.jpg';
+  static String azkarEvening = 'assets/images/eveningazkar.jpg';
+  static String azkarEveningIcon = 'assets/images/eveningicon.png';
+  static String azkarMoarningIcon = 'assets/images/moarningIcon.png';
+
+
+
+
 }

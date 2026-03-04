@@ -85,7 +85,7 @@ class _HadithTabState extends State<HadithTab> {
         hadithList = tempList;
       });
     } catch (e) {
-      print("Error loading hadith files: $e");
+
     }
   }
 }

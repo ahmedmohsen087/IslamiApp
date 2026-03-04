@@ -36,10 +36,14 @@ dependencies:
   cupertino_icons:
   animate_do:
   smooth_page_indicator:
-  google_fonts:
+  google_fonts: ^6.2.1
   carousel_slider:
   smooth_compass:
   shared_preferences:
+  http:
+  audioplayers:
+  provider:
+  intl:
 
 
 dev_dependencies:
@@ -70,6 +74,8 @@ flutter:
     - assets/icons/
     - assets/files/Suras/
     - assets/files/Hadeeth/
+    - assets/files/azkar/
+    - assets/files/azkar.json
 
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:islamic/core/constants/app_assets.dart';
 import 'package:islamic/features/layout/qiblah/qibla.dart';
-import 'package:islamic/features/layout/radio/radio_tab.dart';
+import 'package:islamic/features/layout/radio/pages/radio_tab.dart';
 import 'package:islamic/features/layout/tasbeh/sabha_tab.dart';
-import 'package:islamic/features/layout/times/times_tab.dart';
+import 'package:islamic/features/layout/times/pages/times_tab.dart';
 
 import '../../core/theme/aap_colors.dart';
 import 'hadith/pages/hadith_tab.dart';
