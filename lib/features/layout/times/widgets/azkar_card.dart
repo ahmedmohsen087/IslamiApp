@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:islamic/core/theme/aap_colors.dart';
-import 'package:islamic/features/layout/times/pages/evening_azkar.dart';
 
 class AzkarCard extends StatelessWidget {
   final String title ;
@@ -14,13 +13,7 @@ class AzkarCard extends StatelessWidget {
     var size = MediaQuery.sizeOf(context);
     return Expanded(
       child: InkWell(
-        onTap: (){
-          Navigator.push(
-            context,
-            MaterialPageRoute(
-              builder: (context) => EveningAzkar(sectionName: title,),
-            ),
-          ); },
+        onTap: (){},
         child: Container(
           margin: EdgeInsets.all(5),
           padding: EdgeInsets.all(10),
